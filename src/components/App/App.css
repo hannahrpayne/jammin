@@ -8,32 +8,34 @@ html {
   font-size: 18px;
 }
 
-h1 {
+/* h1 {
   padding: .77rem 0;
   background-color: #010c3f;
   text-align: center;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.88rem;
   color: #fff;
-}
+}; */
 
 h1 .highlight {
   color: #6c41ec;
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.55rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .App {
   height: 100%;
-  padding: 0 17% 10% 17%;
-  background-image: url('./resources/images/jammin-background-image.jpg');
+  padding: 5% 15% 10% 15%;
+  background-image: url('./resources/images/wp7160241.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   color: #fff;
 }
