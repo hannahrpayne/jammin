@@ -31,25 +31,25 @@ const App = (props) => {
     'New Playlist');
 
     const [playlistTracks, setPlaylistTracks] = useState([
-      {
-        track: 'Example Track Name', 
-        artist: 'Example Track Artist', 
-        album: 'Example Track Album',
-        id: 1,
-      },
+      // {
+      //   track: 'Example Track Name', 
+      //   artist: 'Example Track Artist', 
+      //   album: 'Example Track Album',
+      //   id: 1,
+      // },
 
-      {
-        track: 'Example Playlist Track Name', 
-        artist: 'Example Playlist Track Artist', 
-        album: 'Example Playlist Track Album',
-        id: 3,
-      },
-      {
-        track: 'Example Track Name 2', 
-        artist: 'Example Track Artist 2', 
-        album: 'Example Track Album 2',
-        id: 4,
-      },
+      // {
+      //   track: 'Example Playlist Track Name', 
+      //   artist: 'Example Playlist Track Artist', 
+      //   album: 'Example Playlist Track Album',
+      //   id: 3,
+      // },
+      // {
+      //   track: 'Example Track Name 2', 
+      //   artist: 'Example Track Artist 2', 
+      //   album: 'Example Track Album 2',
+      //   id: 4,
+      // },
     ]);
 
     const search = useCallback((term) => {
